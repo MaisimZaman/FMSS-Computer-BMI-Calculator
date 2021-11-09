@@ -70,7 +70,7 @@ export default function App() {
             className="shadow appearance-none  rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
             id="Weight"
             type="Weight in kg"
-            placeholder="Weight in cm"
+            placeholder="Weight in Kg"
             value={weight}
             onChange={(e) => setWeight(e.target.value)}
           />
